@@ -24,8 +24,8 @@ This Python script automates the installation and update process of the TP-Link 
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/omada-controller-automation.git
-   cd omada-controller-automation
+   git clone https://github.com/SeraphV2/Omada_Installer.git
+   cd Omada_Installer
    ```
 
 2. Install required Python modules:
