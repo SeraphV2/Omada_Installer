@@ -11,8 +11,6 @@ This Python script automates the installation and update process of the TP-Link 
 - **Automated Installation**: Quickly set up the Omada Controller on any compatible Linux server.
 - **Seamless Updates**: Update your existing Omada Controller to the latest version with ease.
 - **Dependency Management**: Automatically detects and installs required dependencies.
-- **Customizable**: Options to configure installation paths and customize settings.
-- **Error Handling**: Ensures smooth operations with clear error messages and logging.
 
 ## Requirements
 
