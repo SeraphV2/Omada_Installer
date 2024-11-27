@@ -28,7 +28,6 @@ This Python script automates the installation and update process of the TP-Link 
 
 2. Install required Python modules:
    ```bash
-   sudo apt install python3-pip
    pip install -r requirements.txt
    ```
 
