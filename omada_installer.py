@@ -14,21 +14,21 @@ class Main():
         self.c = '\033[36m'
         self.w = '\033[37m'
         self.rr = '\033[39m'
-        os.system('cls')
+        os.system('clear')
         self.warn()
         time.sleep(2)
-        os.system('cls')
+        os.system('clear')
         self.banner()
         self.options()
         while self.gg == True:
             print()
             choose = Write.Input("            Choose Number -> ", Colors.yellow_to_red, interval=0.0025)
             if (choose == '1'):
-                os.system('cls')
+                os.system('clear')
                 self.banner()
                 self.rs()
             elif (choose == '2'):
-                os.system('cls')
+                os.system('clear')
                 self.banner2()
                 self.zp()
             
@@ -141,7 +141,7 @@ class Main():
             print('')
             choose = Write.Input("            Choose Number -> ", Colors.yellow_to_red, interval=0.0025)
             if (choose == '1'):
-               os.system('cls')
+               os.system('clear')
                self.banner() 
                os.system('wget http://archive.ubuntu.com/ubuntu/pool/main/o/openssl/libssl1.1_1.1.0g-2ubuntu4_amd64.deb')           
                os.system('sudo dpkg -i libssl1.1_1.1.0g-2ubuntu4_amd64.deb ')
@@ -168,21 +168,21 @@ class Main():
                time.sleep(2)
                self.rs()
             elif (choose == '99'):
-               os.system('cls')
+               os.system('clear')
                self.banner()
                self.options()
                
        
     def zp(self):
         while self.gg == True:
-            os.system('cls')
+            os.system('clear')
             self.banner2()
             self.check()
             webbrowser.open('https://www.tp-link.com/uk/support/download/omada-software-controller/#Controller_Software', new=2)
             print("")
             self.wait()
             time.sleep(10)
-            os.system('cls')
+            os.system('clear')
             self.banner2()
             self.upgrade()
             print("")
@@ -195,7 +195,7 @@ class Main():
                 self.comp()
                 self.rs()
             elif (choose2 == '99'):
-                os.system('cls')
+                os.system('clear')
                 self.banner()
                 self.options()
                
