@@ -163,7 +163,7 @@ class Main():
                self.rs()
             elif (choose == '4'):
                os.system('wget https://static.tp-link.com/upload/software/2024/202411/20241101/Omada_SDN_Controller_v5.14.32.3_linux_x64.deb')
-               os.system('sudo apt install -y ./ Omada_SDN_Controller_v5.14.32.3_linux_x64.deb')
+               os.system('sudo apt install -y ./Omada_SDN_Controller_v5.14.32.3_linux_x64.deb')
                self.comp()
                time.sleep(2)
                self.rs()
