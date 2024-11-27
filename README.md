@@ -33,7 +33,7 @@ This Python script automates the installation and update process of the TP-Link 
 
 3. Run the script:
    ```bash
-   python3 omada_installer.py
+   bash run.sh
    ```
 
 4. Follow the prompts to install or update your Omada Controller.
